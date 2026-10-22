@@ -1,0 +1,201 @@
+{
+  "units": "mm",
+  "notes": [
+    "STL carries no unit metadata; all geometry was modelled in millimetres.",
+    "Assembly files use the supplied SCHUNK STL coordinate frame.",
+    "Fingers are mounted on the OUTER jaw faces; confirm on the physical gripper.",
+    "Guide-rod relief pockets are included so the root sits flat on the jaw face.",
+    "GRIP_GAP_CLOSED and PAD_THICKNESS are placeholders pending user confirmation."
+  ],
+  "design_parameters": {
+    "FINGER_LENGTH": 150.0,
+    "FINGER_WIDTH": 58.0,
+    "ROOT_WIDTH": 58.0,
+    "ROOT_HEIGHT": 60.0,
+    "ROOT_THICKNESS": 14.0,
+    "BLADE_THICKNESS": 16.0,
+    "ARM_HEIGHT": 12.0,
+    "GRIP_GAP_CLOSED": 40.0,
+    "GRIP_OFFSET_TOTAL": 65.5,
+    "PAD_THICKNESS": 2.0,
+    "PAD_WIDTH": 36.0,
+    "PAD_LENGTH": 60.0,
+    "BLADE_FILLET_R": 6.0,
+    "ARM_ROOT_FILLET_R": 2.0,
+    "EDGE_CHAMFER": 0.8,
+    "ROD_RELIEF_YZ_SIZE": [
+      [
+        -12.5,
+        19.0,
+        11.5,
+        11.5
+      ],
+      [
+        -12.5,
+        -19.0,
+        11.5,
+        11.5
+      ],
+      [
+        18.5,
+        18.0,
+        16.0,
+        16.0
+      ],
+      [
+        18.5,
+        -18.0,
+        16.0,
+        16.0
+      ]
+    ],
+    "ROD_RELIEF_DEPTH": 2.3,
+    "MOUNT_THREAD": "M5",
+    "MOUNT_SCREW": "M5 x 16 socket-head cap screw (SHCS)",
+    "MOUNT_HOLE_COMP": 0.2,
+    "MOUNT_CLEARANCE_D": 5.7,
+    "MOUNT_CBORE_D": 9.2,
+    "MOUNT_CBORE_DEPTH": 5.0,
+    "MOUNT_HOLE_PATTERN_YZ": [
+      [
+        -20.0,
+        0.0
+      ],
+      [
+        0.0,
+        20.0
+      ],
+      [
+        20.0,
+        0.0
+      ],
+      [
+        0.0,
+        -20.0
+      ]
+    ]
+  },
+  "measured_schunk_interface": {
+    "jaw_mount_face_mm": [
+      60.0,
+      73.0
+    ],
+    "jaw_face_y_range": [
+      1.5,
+      61.5
+    ],
+    "jaw_face_z_range": [
+      -36.5,
+      36.5
+    ],
+    "jaw_face_center_y": 31.5,
+    "mount_side": "outer jaw face",
+    "jaw_mount_gap_closed": 171.0,
+    "stroke_per_jaw": 35.0,
+    "guide_rod_protrusion_approx": 2.0
+  },
+  "geometry": {
+    "right_bbox_print": {
+      "xmin": -0.0048,
+      "xmax": 79.5057,
+      "ymin": -0.0,
+      "ymax": 150.0,
+      "zmin": -0.0072,
+      "zmax": 58.0072,
+      "xlen": 79.5105,
+      "ylen": 150.0,
+      "zlen": 58.0145
+    },
+    "left_bbox_print": {
+      "xmin": -0.0057,
+      "xmax": 79.5048,
+      "ymin": -0.0,
+      "ymax": 150.0,
+      "zmin": -0.0072,
+      "zmax": 58.0072,
+      "xlen": 79.5105,
+      "ylen": 150.0,
+      "zlen": 58.0145
+    },
+    "right_bbox_assembly": {
+      "xmin": 19.9952,
+      "xmax": 99.5057,
+      "ymin": 2.4928,
+      "ymax": 60.5072,
+      "zmin": -120.0,
+      "zmax": 30.0,
+      "xlen": 79.5105,
+      "ylen": 58.0145,
+      "zlen": 150.0
+    },
+    "left_bbox_assembly": {
+      "xmin": -99.5057,
+      "xmax": -19.9952,
+      "ymin": 2.4928,
+      "ymax": 60.5072,
+      "zmin": -120.0,
+      "zmax": 30.0,
+      "xlen": 79.5105,
+      "ylen": 58.0145,
+      "zlen": 150.0
+    },
+    "assembly_bbox": {
+      "xmin": -99.5057,
+      "xmax": 99.5057,
+      "ymin": 2.4928,
+      "ymax": 60.5072,
+      "zmin": -120.0,
+      "zmax": 30.0,
+      "xlen": 199.0114,
+      "ylen": 58.0145,
+      "zlen": 150.0
+    },
+    "right_volume_cm3": 167.312,
+    "left_volume_cm3": 167.312,
+    "pair_volume_cm3": 334.623,
+    "right_center_of_mass_assembly": [
+      59.081,
+      31.415,
+      -47.359
+    ]
+  },
+  "mass_estimates_g": {
+    "one_finger_petg": 212.5,
+    "one_finger_pa12cf": 184.0,
+    "pair_petg": 425.0,
+    "pair_pa12cf": 368.1
+  },
+  "screening_calculations": {
+    "grip_force_per_jaw_N": 375.0,
+    "root_bending_moment_Nm_at_tip": 56.25,
+    "blade_section_modulus_mm3": 2474.7,
+    "blade_root_bending_stress_MPa": 22.7,
+    "projection_from_jaw_top_mm": 156.5,
+    "closed_blade_gap_mm": 40.0,
+    "open_blade_gap_mm": 110.0,
+    "closed_gap_with_2x_pads_mm": 36.0,
+    "open_gap_with_2x_pads_mm": 106.0,
+    "com_inward_from_jaw_face_mm": 26.4,
+    "com_below_jaw_center_mm": 47.4,
+    "one_finger_weight_moment_about_jaw_Nm": 0.055
+  },
+  "official_limits": {
+    "max_finger_length_mm": 170.0,
+    "max_finger_weight_kg": 1.5,
+    "Mx_Nm": 20.0,
+    "My_Nm": 10.0,
+    "Mz_Nm": 10.0,
+    "Fz_N": 300.0,
+    "nominal_pressure_bar": 6.0
+  },
+  "checks": {
+    "finger_length_within_limit": true,
+    "projection_from_jaw_top_within_limit": true,
+    "finger_mass_within_limit_petg": true,
+    "finger_mass_within_limit_pa12cf": true,
+    "right_single_solid": true,
+    "left_single_solid": true,
+    "right_valid": true,
+    "left_valid": true
+  }
+}

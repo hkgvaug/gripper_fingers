@@ -1,0 +1,16 @@
+{
+  "schunk_stl": "E:\\LeStoreDownload\\dailypython\\PARTserver0202610210621215433777210e898ce\\SCHUNK-0302132 PSH 32-1_ 0000.stl",
+  "fingers": {
+    "right": {
+      "finger_stl": "urdf\\finger_right_assembly.stl",
+      "intersection_volume_mm3": 0.0,
+      "pass": true
+    },
+    "left": {
+      "finger_stl": "urdf\\finger_left_assembly.stl",
+      "intersection_volume_mm3": -0.0,
+      "pass": true
+    }
+  },
+  "pass": true
+}

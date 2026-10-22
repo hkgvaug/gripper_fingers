@@ -1,0 +1,208 @@
+{
+  "checks": [
+    {
+      "file": "finger_right_print.stl",
+      "bytes": 127084,
+      "units": "mm (assumed; STL is unitless)",
+      "triangles": 2540,
+      "vertices": 1264,
+      "bodies_expected": 1,
+      "bodies_found": 1,
+      "watertight": true,
+      "all_bodies_watertight": true,
+      "winding_consistent": true,
+      "volume_cm3": 167.318,
+      "mass_petg_g": 212.5,
+      "mass_pa12cf_g": 184.1,
+      "extents_mm": [
+        79.5,
+        150.0,
+        58.0
+      ],
+      "bounds_mm": {
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          79.5,
+          150.0,
+          58.0
+        ]
+      },
+      "center_mass_mm": [
+        39.082,
+        77.358,
+        28.915
+      ],
+      "print_bbox_expected_mm": [
+        79.5,
+        150.0,
+        58.0
+      ],
+      "print_bbox_ok": true,
+      "bed_origin_ok": true
+    },
+    {
+      "file": "finger_left_print.stl",
+      "bytes": 127084,
+      "units": "mm (assumed; STL is unitless)",
+      "triangles": 2540,
+      "vertices": 1264,
+      "bodies_expected": 1,
+      "bodies_found": 1,
+      "watertight": true,
+      "all_bodies_watertight": true,
+      "winding_consistent": true,
+      "volume_cm3": 167.318,
+      "mass_petg_g": 212.5,
+      "mass_pa12cf_g": 184.1,
+      "extents_mm": [
+        79.5,
+        150.0,
+        58.0
+      ],
+      "bounds_mm": {
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          79.5,
+          150.0,
+          58.0
+        ]
+      },
+      "center_mass_mm": [
+        40.418,
+        77.358,
+        28.915
+      ],
+      "print_bbox_expected_mm": [
+        79.5,
+        150.0,
+        58.0
+      ],
+      "print_bbox_ok": true,
+      "bed_origin_ok": true
+    },
+    {
+      "file": "fingers_pair_assembly.stl",
+      "bytes": 254084,
+      "units": "mm (assumed; STL is unitless)",
+      "triangles": 5080,
+      "vertices": 2528,
+      "bodies_expected": 2,
+      "bodies_found": 2,
+      "watertight": true,
+      "all_bodies_watertight": true,
+      "winding_consistent": true,
+      "volume_cm3": 334.637,
+      "mass_petg_g": 425.0,
+      "mass_pa12cf_g": 368.1,
+      "extents_mm": [
+        199.0,
+        58.0,
+        150.0
+      ],
+      "bounds_mm": {
+        "min": [
+          -99.5,
+          2.5,
+          -120.0
+        ],
+        "max": [
+          99.5,
+          60.5,
+          30.0
+        ]
+      },
+      "center_mass_mm": [
+        -0.0,
+        31.415,
+        -47.358
+      ]
+    },
+    {
+      "file": "finger_right_assembly.stl",
+      "bytes": 127084,
+      "units": "mm (assumed; STL is unitless)",
+      "triangles": 2540,
+      "vertices": 1264,
+      "bodies_expected": 1,
+      "bodies_found": 1,
+      "watertight": true,
+      "all_bodies_watertight": true,
+      "winding_consistent": true,
+      "volume_cm3": 167.318,
+      "mass_petg_g": 212.5,
+      "mass_pa12cf_g": 184.1,
+      "extents_mm": [
+        79.5,
+        58.0,
+        150.0
+      ],
+      "bounds_mm": {
+        "min": [
+          20.0,
+          2.5,
+          -120.0
+        ],
+        "max": [
+          99.5,
+          60.5,
+          30.0
+        ]
+      },
+      "center_mass_mm": [
+        59.082,
+        31.415,
+        -47.358
+      ]
+    },
+    {
+      "file": "finger_left_assembly.stl",
+      "bytes": 127084,
+      "units": "mm (assumed; STL is unitless)",
+      "triangles": 2540,
+      "vertices": 1264,
+      "bodies_expected": 1,
+      "bodies_found": 1,
+      "watertight": true,
+      "all_bodies_watertight": true,
+      "winding_consistent": true,
+      "volume_cm3": 167.318,
+      "mass_petg_g": 212.5,
+      "mass_pa12cf_g": 184.1,
+      "extents_mm": [
+        79.5,
+        58.0,
+        150.0
+      ],
+      "bounds_mm": {
+        "min": [
+          -99.5,
+          2.5,
+          -120.0
+        ],
+        "max": [
+          -20.0,
+          60.5,
+          30.0
+        ]
+      },
+      "center_mass_mm": [
+        -59.082,
+        31.415,
+        -47.358
+      ]
+    }
+  ],
+  "summary": {
+    "all_watertight": true,
+    "all_body_counts_ok": true,
+    "all_print_oriented": true
+  }
+}
